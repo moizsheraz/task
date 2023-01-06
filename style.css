@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2196f3;;
+}
+.m-auto{
+    margin: 23px auto;
+    }
+    .max-width{
+        max-width: 85vw;
+      }
+      .navigation{
+        display: flex;
+        justify-content: center;
+      height: 69px;
+       vertical-align: middle;
+       border: 1px solid rgba(255, 255, 255, 0.3);
+       background: black;
+       color: white;
+       border-radius: 16px;
+       box-shadow: 0px 4px 30px rgba(0,0, 0,0.1);
+       backdrop-filter: blur(5px);
+
+    }
+    
+    .leftnav{
+        display: flex;
+        align-items: center;
+    }
+
+ 
+    .rightnav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 34px;
+    }
+    .panel{
+        color: red;
+        margin: 23px;
+        text-align: center;
+        font-size: larger;
+    }
+    .profile img{
+        height: 150px;
+        border-radius: 34px;
+    }
+    .profile p {
+      text-align: center;
+    }
+    .profile{
+        float: right;
+        margin-right: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .attendence{
+        border: 10px solid rgba(255, 255, 255, 0.3);
+       width: 500px;
+        margin: 50px;
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .attendence input{
+        width: 20vw;
+        padding: 14px;
+        margin: 12px;
+        border-radius: 12px;
+    }
+    .attendence input:hover{
+        transition: 0.1s ease-in-out;
+        width: 25vw;
+    
+    }
+#btn1{
+    margin: 12px 12px;
+    padding: 12px;
+    border: 2px solid white;
+    border-radius: 12px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+#submit{
+    margin: 12px 12px;
+    padding: 12px;
+    border: 2px solid white;
+    border-radius: 12px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+#btn2{
+    margin: 12px 12px;
+    padding: 12px;
+    border: 2px solid white;
+    border-radius: 12px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+#btn2{
+    margin: 12px 12px;
+    padding: 12px;
+    border: 2px solid white;
+    border-radius: 12px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+#fetch{
+    margin: 12px 12px;
+    padding: 12px;
+    border: 2px solid white;
+    border-radius: 12px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+#view{
+    margin: 12px 12px;
+    padding: 12px;
+    border: 2px solid white;
+    border-radius: 12px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+#submit:hover{
+  background: none;
+  color: black;
+}
+#btn1:hover{
+  background: none;
+  color: black;
+}
+#btn2:hover{
+  background: none;
+  color: black;
+}
+
+#view:hover{
+  background: none;
+  color: black;
+}
+#fetch:hover{
+  background: none;
+  color: black;
+}
+#studentname{
+    font-size: 23px;
+    font-weight: bolder;
+    color:white;
+}
+#History{
+display: flex;
+border: 2px solid black;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+width: 50vw;
+
+}
